@@ -3,7 +3,7 @@
     "path": "C:/Mark Tudor e-Portfolio/resume.qmd",
     "project_path": "resume.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "3895362778",
     "contents": "",
     "dirty": false,
     "created": 1790611383711.0,
@@ -19,14 +19,14 @@
         "rmdVisualCollapsedChunks": "",
         "cursorPosition": "0,0",
         "scrollLine": "0",
-        "rmdVisualModeLocation": "2:0"
+        "rmdVisualModeLocation": "144:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1790615388,
+    "lastKnownWriteTime": 1790976608,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1790615388206,
+    "last_content_update": 1790976608374,
     "read_only": false,
     "read_only_alternatives": []
 }

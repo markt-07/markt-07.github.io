@@ -2,8 +2,11 @@
 title: "Resume"
 ---
 
-[Download my resume](resume.pdf)
+```         
+```
 
-<iframe src="Mark_Tudor_Resume Add.pdf" width="100%" height="1000" title="Mark Tudor Resume">
+[Download my resume](Mark_Tudor_Resume%20Add.pdf){download="Mark_Tudor_Resume.pdf"}
+
+<iframe src="Mark_Tudor_Resume%20Add.pdf" width="100%" height="1000" title="Mark Tudor Resume">
 
 </iframe>
