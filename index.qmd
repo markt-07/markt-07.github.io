@@ -1,0 +1,22 @@
+---
+title: "Mark Tudor"
+image: "mark tudor linkedin.jpg"
+about:
+  template: solana
+  links:
+    - icon: github
+      text: GitHub
+      href: "https://github.com/markt-07"
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/mark-tudor-8a2564361/"
+    - icon: inboxes
+      text: Contact
+      href: "mailto:mt112@uark.edu"
+---
+<p style="font-size: 0.8em;">Email: <a href="mailto:mt112@uark.edu">mt112@uark.edu</a></p>
+
+<p style="font-size: 1.1em; font-weight: 400; line-height: 1.6; color: #555;">
+I’m Mark Tudor, a sophomore studying Industrial Engineering in the Honors Program at the University of Arkansas. I’m interested in manufacturing, process improvement, and using data to solve practical problems. Outside the classroom, I serve as an Engineering Peer Mentor and work on a PepsiCo project through the McMillon Innovation Studio. I’m looking for opportunities to gain hands-on experience and continue developing my engineering skills.
+</p>
+---
