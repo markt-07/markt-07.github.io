@@ -4,6 +4,7 @@ author:
   - Peyton Meierhoff
   - Samuel Otterburg
   - Trevor Miller
+  - Krutarth Prajapati
   - Mark Tudor
 date: 2026-11-13
 description: "An INEG 21003 team project analyzing January 2025 commercial flights in Excel."
@@ -15,6 +16,7 @@ image: Slide1.jpg
 - [Peyton Meierhoff](https://peytonm2007.github.io/)
 - [Samuel Otterburg](https://samuelotterburg.github.io/)
 - [Trevor Miller](https://tmiller2178.github.io/)
+- [Krutarth Prajapati](https://krutarthprajapati.github.io/)
 - [Mark Tudor](https://markt-07.github.io/)
 
 
