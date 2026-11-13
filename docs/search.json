@@ -7,11 +7,53 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Mark Tudor",
+    "objectID": "posts/data-visualization/index.html",
+    "href": "posts/data-visualization/index.html",
+    "title": "A Month in the Air: U.S. Flight Activity and Delays",
     "section": "",
-    "text": "Email: mt112@uark.edu\n\n\nI’m Mark Tudor, a sophomore studying Industrial Engineering in the Honors Program at the University of Arkansas. I’m interested in manufacturing, process improvement, and using data to solve practical problems. Outside the classroom, I serve as an Engineering Peer Mentor and work on a PepsiCo project through the McMillon Innovation Studio. I’m looking for opportunities to gain hands-on experience and continue developing my engineering skills."
+    "text": "Peyton Meierhoff\nSamuel Otterburg\nTrevor Miller\nMark Tudor"
+  },
+  {
+    "objectID": "posts/data-visualization/index.html#team-members",
+    "href": "posts/data-visualization/index.html#team-members",
+    "title": "A Month in the Air: U.S. Flight Activity and Delays",
+    "section": "",
+    "text": "Peyton Meierhoff\nSamuel Otterburg\nTrevor Miller\nMark Tudor"
+  },
+  {
+    "objectID": "posts/data-visualization/index.html#dataset",
+    "href": "posts/data-visualization/index.html#dataset",
+    "title": "A Month in the Air: U.S. Flight Activity and Delays",
+    "section": "Dataset",
+    "text": "Dataset\nOur team analyzed 539,747 scheduled U.S. commercial flight records from January 2025 in INEG_21003_Flight_Data.xlsx. The workbook includes flight dates, airlines, departure and arrival delays, cancellations, flight times, and distances. Delays are measured in minutes and distance is measured in miles. Negative delays mean a flight departed or arrived early.\nU.S. Bureau of Transportation Statistics, January 2025 Airline Service Quality Performance Data"
+  },
+  {
+    "objectID": "posts/data-visualization/index.html#how-did-the-number-of-scheduled-flights-vary-by-day",
+    "href": "posts/data-visualization/index.html#how-did-the-number-of-scheduled-flights-vary-by-day",
+    "title": "A Month in the Air: U.S. Flight Activity and Delays",
+    "section": "1. How did the number of scheduled flights vary by day?",
+    "text": "1. How did the number of scheduled flights vary by day?\nWe wanted to see how much busier one day could be than another. A monthly total can hide differences that matter for staffing and gate assignments.\nIn Excel, we grouped the records by flight date and counted the scheduled flights for each day, including cancellations in the scheduled totals. January 5 had the most flights (19,676), and January 18 had the fewest (14,690).\nWe put the dates in order on the x-axis and the daily counts on the y-axis. Connecting the daily counts makes the peaks and dips easy to follow. The headline gives the range so readers can see the size of the difference before looking at the line.\n\n\n\nDaily scheduled flights in January 2025."
+  },
+  {
+    "objectID": "posts/data-visualization/index.html#which-airline-scheduled-the-most-flights",
+    "href": "posts/data-visualization/index.html#which-airline-scheduled-the-most-flights",
+    "title": "A Month in the Air: U.S. Flight Activity and Delays",
+    "section": "2. Which airline scheduled the most flights?",
+    "text": "2. Which airline scheduled the most flights?\nWe wanted to know whether the airlines had similar schedules or whether a few carriers accounted for much more of the month’s traffic.\nIn Excel, we counted the scheduled flight records for each airline and sorted the totals from highest to lowest. Southwest led with 105,307 scheduled flights, followed by Delta with 76,306 and American with 75,088.\nWe used one column per airline and started the count axis at zero so the column heights show the differences in flight volume. Ordering the columns from highest to lowest puts Southwest first, which supports the headline.\n\n\n\nScheduled flights by airline in January 2025."
+  },
+  {
+    "objectID": "posts/data-visualization/index.html#how-were-arrival-delays-distributed",
+    "href": "posts/data-visualization/index.html#how-were-arrival-delays-distributed",
+    "title": "A Month in the Air: U.S. Flight Activity and Delays",
+    "section": "3. How were arrival delays distributed?",
+    "text": "3. How were arrival delays distributed?\nWe wanted to know what a typical arrival looked like and how often passengers faced a much longer delay. An average alone would hide the spread.\nIn Excel, we used the 522,269 records with arrival delays and grouped them into 10-minute bins, with separate bins for the most extreme values. About 65% of those flights arrived early. The tallest bar represents flights that arrived roughly 10 to 20 minutes early, with 133,024 flights in that bin.\nWe used a histogram to show the number of flights in each delay interval. The bars to the left of zero show early arrivals, and the tail to the right shows how far late arrivals extended. The headline summarizes both patterns.\n\n\n\nDistribution of flight arrival delays in January 2025."
+  },
+  {
+    "objectID": "posts/data-visualization/index.html#is-flight-distance-associated-with-how-late-a-flight-departs",
+    "href": "posts/data-visualization/index.html#is-flight-distance-associated-with-how-late-a-flight-departs",
+    "title": "A Month in the Air: U.S. Flight Activity and Delays",
+    "section": "4. Is flight distance associated with how late a flight departs?",
+    "text": "4. Is flight distance associated with how late a flight departs?\nLonger flights can face different scheduling and operational conditions. We wanted to see whether flight distance could help predict departure delay.\nIn Excel, we made an XY scatter plot using the 523,824 records with both distance and departure delay. We kept negative delays so early departures were included. We added a linear trendline, which explained about 0.002% of the variation in departure delay (R² ≈ 0.000021).\nEach dot represents a flight, with distance in miles on the x-axis and departure delay in minutes on the y-axis. We kept the full delay range visible and displayed R² on the chart. The headline describes the cluster near the scheduled departure time and the weak linear relationship.\n\n\n\nFlight distance versus departure delay in January 2025."
   },
   {
     "objectID": "about.html",
@@ -19,6 +61,13 @@
     "title": "About",
     "section": "",
     "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mark Tudor",
+    "section": "",
+    "text": "Email: mt112@uark.edu\n\n\nI’m Mark Tudor, a sophomore studying Industrial Engineering in the Honors Program at the University of Arkansas. I’m interested in manufacturing, process improvement, and using data to solve practical problems. Outside the classroom, I serve as an Engineering Peer Mentor and work on a PepsiCo project through the McMillon Innovation Studio. I’m looking for opportunities to gain hands-on experience and continue developing my engineering skills."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -32,6 +81,6 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Welcome To My Blog\n\n\n\n\n\n\nTristan O’Malley\n\n\nSep 25, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nHarlow Malloc\n\n\nSep 28, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome To My Blog\n\n\n\n\n\n\nTristan O’Malley\n\n\nSep 25, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nHarlow Malloc\n\n\nSep 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Month in the Air: U.S. Flight Activity and Delays\n\n\nAn INEG 21003 team project analyzing January 2025 commercial flights in Excel.\n\n\n\nPeyton Meierhoff, Samuel Otterburg, Trevor Miller, Mark Tudor\n\n\nNov 13, 2026\n\n\n\n\n\n\nNo matching items"
   }
 ]
