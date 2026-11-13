@@ -25,7 +25,7 @@
     "href": "posts/data-visualization/index.html#dataset",
     "title": "A Month in the Air: U.S. Flight Activity and Delays",
     "section": "Dataset",
-    "text": "Dataset\nOur team analyzed 539,747 scheduled U.S. commercial flight records from January 2025 in INEG_21003_Flight_Data.xlsx. The workbook includes flight dates, airlines, departure and arrival delays, cancellations, flight times, and distances. Delays are measured in minutes and distance is measured in miles. Negative delays mean a flight departed or arrived early.\nU.S. Bureau of Transportation Statistics, January 2025 Airline Service Quality Performance Data"
+    "text": "Dataset\nOur team analyzed commercial aviation data from the U.S. Bureau of Transportation Statistics (BTS). The dataset contains 539,747 scheduled flight records from January 2025, including flight dates, airlines, departure delays, arrival delays, cancellations, flight times, and flight distances. Delays are measured in minutes and distance is measured in miles. Negative delays mean a flight departed or arrived early.\nU.S. Bureau of Transportation Statistics, January 2025 Airline Service Quality Performance Data"
   },
   {
     "objectID": "posts/data-visualization/index.html#how-did-the-number-of-scheduled-flights-vary-by-day",
